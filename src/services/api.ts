@@ -1,5 +1,5 @@
 // services/api.ts
-const BASE_URL = "https://waalook-backend.onrender.com";
+const BASE_URL = process.env.WAALOOK_API;
 
 export type Report = {
   id: string;
