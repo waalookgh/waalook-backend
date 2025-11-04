@@ -17,7 +17,7 @@ export type Report = {
 };
 
 const router = Router();
-const filePath = path.join(__dirname, "../data/reports.json");
+const filePath = path.join(process.cwd(), "data/reports.json");
 
 // GET all reports
 router.get("/", (req: Request, res: Response) => {
