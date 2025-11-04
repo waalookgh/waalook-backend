@@ -20,7 +20,7 @@ export type Report = {
 const router = Router();
 
 // Use process.cwd() to always point to the root of the project
-const filePath = path.join(process.cwd(), "src", "data", "reports.json");
+const filePath = path.join(__dirname, "../data/reports.json");
 
 // GET all reports
 router.get("/", (req: Request, res: Response) => {
