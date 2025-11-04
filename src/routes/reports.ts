@@ -1,3 +1,4 @@
+// src/routes/reports.ts
 import { Router, Request, Response } from "express";
 import fs from "fs";
 import path from "path";
@@ -17,7 +18,9 @@ export type Report = {
 };
 
 const router = Router();
-const filePath = path.join(process.cwd(), "data/reports.json");
+
+// Use process.cwd() to always point to the root of the project
+const filePath = path.join(process.cwd(), "src", "data", "reports.json");
 
 // GET all reports
 router.get("/", (req: Request, res: Response) => {
