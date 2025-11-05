@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": "1730810200000",
     "poster": "John Doe",
     "time": "2h ago",
     "title": "Flood in Accra Central",
@@ -13,7 +13,7 @@
     "shares": 5
   },
   {
-    "id": "2",
+    "id": "1730810500000",
     "poster": "Ama Kwame",
     "time": "5h ago",
     "title": "Power Outage in East Legon",
@@ -26,7 +26,7 @@
     "shares": 3
   },
   {
-    "id": "3",
+    "id": "1730810800000",
     "poster": "Kofi Mensah",
     "time": "1d ago",
     "title": "Traffic Build-Up on Spintex Road",
@@ -39,7 +39,7 @@
     "shares": 1
   },
   {
-    "id": "4",
+    "id": "1730811100000",
     "poster": "Akosua Adjei",
     "time": "3d ago",
     "title": "Fire Outbreak at Makola Market",
